@@ -11,7 +11,7 @@ settings:
     format: "dddd, mmmm dS, yyyy, h:MM:ss TT"
 
 messages:
-  push: "⬆️ Pushed {AMOUNT} commit(s) to {REPO}"
+  push: "⬆️ Pushed commits to {REPO}"
   pr_opened: "💪 Opened PR {ID} in {REPO}"
   pr_merged: "🎉 Merged PR {ID} in {REPO}"
   pr_closed: "❌ Closed PR {ID} in {REPO}"
