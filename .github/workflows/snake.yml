@@ -40,4 +40,9 @@ jobs:
             exit 0
           fi
           git commit -m "chore(snake): refresh contribution snake"
-          git push
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || { sleep 5; continue; }
+            git push && exit 0
+            sleep 5
+          done
+          exit 1
