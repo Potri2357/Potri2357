@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="170" viewBox="0 0 1200 170">
+
+<style>
+  @keyframes pulse { 0%,100%{opacity:.5} 50%{opacity:1} }
+  .t { animation: pulse 3.5s ease-in-out infinite; }
+</style>
+<defs>
+  <linearGradient id="qbg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0d1230"/>
+    <stop offset="1" stop-color="#4d0f1c"/>
+  </linearGradient>
+</defs>
+
+<rect x="14" y="14" width="1172" height="142" rx="18" fill="url(#qbg)" stroke="#e63946" stroke-width="2"/>
+<g opacity=".8"><g stroke="#ffffff" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="1"><line x1="34.0" y1="34.0" x2="274.0" y2="34.0"/><line x1="34.0" y1="34.0" x2="265.8" y2="96.1"/><line x1="34.0" y1="34.0" x2="241.8" y2="154.0"/><line x1="34.0" y1="34.0" x2="203.7" y2="203.7"/><line x1="34.0" y1="34.0" x2="154.0" y2="241.8"/><line x1="34.0" y1="34.0" x2="96.1" y2="265.8"/><line x1="34.0" y1="34.0" x2="34.0" y2="274.0"/><polyline points="204.0,34.0 203.6,45.1 202.5,56.2 200.7,67.2 198.2,78.0 195.0,88.6 191.1,99.1 186.5,109.2 181.2,119.0 175.3,128.4 168.9,137.5 161.8,146.1 154.2,154.2 146.1,161.8 137.5,168.9 128.4,175.3 119.0,181.2 109.2,186.5 99.1,191.1 88.6,195.0 78.0,198.2 67.2,200.7 56.2,202.5 45.1,203.6 34.0,204.0" fill="none"/></g></g>
+<g transform="scale(-1,1) translate(-1200,0)"><g stroke="#ffffff" stroke-width="1.2" fill="none" stroke-linecap="round" opacity="1"><line x1="34.0" y1="34.0" x2="274.0" y2="34.0"/><line x1="34.0" y1="34.0" x2="265.8" y2="96.1"/><line x1="34.0" y1="34.0" x2="241.8" y2="154.0"/><line x1="34.0" y1="34.0" x2="203.7" y2="203.7"/><line x1="34.0" y1="34.0" x2="154.0" y2="241.8"/><line x1="34.0" y1="34.0" x2="96.1" y2="265.8"/><line x1="34.0" y1="34.0" x2="34.0" y2="274.0"/><polyline points="204.0,34.0 203.6,45.1 202.5,56.2 200.7,67.2 198.2,78.0 195.0,88.6 191.1,99.1 186.5,109.2 181.2,119.0 175.3,128.4 168.9,137.5 161.8,146.1 154.2,154.2 146.1,161.8 137.5,168.9 128.4,175.3 119.0,181.2 109.2,186.5 99.1,191.1 88.6,195.0 78.0,198.2 67.2,200.7 56.2,202.5 45.1,203.6 34.0,204.0" fill="none"/></g></g>
+<g text-anchor="middle" font-family="Georgia, serif">
+<text class="t" x="600" y="88" font-size="30" font-style="italic" fill="#ffffff"          letter-spacing="2">&#8220;WITH GREAT POWER COMES GREAT RESPONSIBILITY.&#8221;</text>
+<text x="600" y="128" font-size="17" fill="#ff8a94" font-family="Arial, sans-serif" letter-spacing="4">&#8212; UNCLE BEN&#8217;S WORDS, LIVED EVERY DAY</text>
+</g>
+<g stroke="#e63946" stroke-width="1.7" stroke-linecap="round" fill="#e63946"><path d="M 597.8 146.9 C 591.8 140.8 587.9 137.6 584.6 134.2" /><path d="M 602.2 146.9 C 608.2 140.8 612.1 137.6 615.4 134.2" /><path d="M 596.1 148.6 C 589.0 145.2 584.0 143.6 579.1 139.8" /><path d="M 603.9 148.6 C 611.0 145.2 616.0 143.6 620.9 139.8" /><path d="M 595.6 151.3 C 588.5 150.8 583.5 152.4 578.5 151.3" /><path d="M 604.4 151.3 C 611.5 150.8 616.5 152.4 621.5 151.3" /><path d="M 596.1 154.1 C 589.5 156.2 585.1 159.0 581.3 162.8" /><path d="M 603.9 154.1 C 610.5 156.2 614.9 159.0 618.7 162.8" /><ellipse cx="600" cy="148.6" rx="4.4" ry="3.3"/><ellipse cx="600" cy="156.8" rx="5.5" ry="7.7"/><path d="M 600 155.2 L 601.6 156.8 L 600 158.4 L 598.4 156.8 Z" fill="#e63946"/></g>
+</svg>

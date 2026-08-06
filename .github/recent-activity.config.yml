@@ -1,0 +1,22 @@
+settings:
+  username: Potri2357
+  max_lines: 8
+  readme_file: "./README.md"
+  commit_msg: "🕷️ chore: update recent activity"
+  commit_name: "github-actions[bot]"
+  commit_email: "41898282+github-actions[bot]@users.noreply.github.com"
+  date:
+    timezone: "Asia/Kolkata"
+    text: "Last Updated: {DATE}"
+    format: "dddd, mmmm dS, yyyy, h:MM:ss TT"
+
+messages:
+  push: "⬆️ Pushed {AMOUNT} commit(s) to {REPO}"
+  pr_opened: "💪 Opened PR {ID} in {REPO}"
+  pr_merged: "🎉 Merged PR {ID} in {REPO}"
+  pr_closed: "❌ Closed PR {ID} in {REPO}"
+  issue_opened: "❗️ Opened issue {ID} in {REPO}"
+  issue_closed: "✔️ Closed issue {ID} in {REPO}"
+  create_repo: "📔 Created new repository {REPO}"
+  new_release: "✌️ Released {ID} in {REPO}"
+  new_star: "⭐ Starred {REPO}"
