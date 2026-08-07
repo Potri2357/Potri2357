@@ -89,7 +89,7 @@ Every project deserves the right tools. Here's my toolkit:
 > Refreshed automatically from the GitHub API every 20 minutes by a GitHub Action.
 
 <!--RECENT_ACTIVITY:last_update-->
-Last Updated: Friday, August 7th, 2026, 10:08:27 PM
+Last Updated: Friday, August 7th, 2026, 10:59:32 PM
 <!--RECENT_ACTIVITY:last_update_end-->
 
 <!--RECENT_ACTIVITY:start-->
@@ -99,8 +99,8 @@ Last Updated: Friday, August 7th, 2026, 10:08:27 PM
 4. Pushed commits to [Potri2357/Potri2357](https://github.com/Potri2357/Potri2357)<br>
 5. Pushed commits to [Potri2357/Potri2357](https://github.com/Potri2357/Potri2357)<br>
 6. Pushed commits to [Potri2357/Potri2357](https://github.com/Potri2357/Potri2357)<br>
-7. Pushed commits to [incogvia-tech/incogvia-portfolio](https://github.com/incogvia-tech/incogvia-portfolio)<br>
-8. Pushed commits to [incogvia-tech/incogvia-portfolio](https://github.com/incogvia-tech/incogvia-portfolio)<br>
+7. Pushed commits to [Potri2357/Potri2357](https://github.com/Potri2357/Potri2357)<br>
+8. Pushed commits to [Potri2357/Potri2357](https://github.com/Potri2357/Potri2357)<br>
 <!--RECENT_ACTIVITY:end-->
 
 ## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/webhook.svg" width="26" align="center"/> Contribution Snake
