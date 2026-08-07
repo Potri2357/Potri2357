@@ -7,30 +7,32 @@
     </linearGradient>
   </defs>
 
+  <!-- 20s cycle, 5 lines of 4s each. Each line: hidden -> fade in (0.35s) -> hold -> fade out (0.35s) -> hidden.
+       Slots never overlap, so only one line is visible at a time (no ghosting/overlap). -->
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" font-weight="600" text-anchor="middle">
     <text x="400" y="42" fill="#ffffff">
       Hello, I'm Potrinathan P M
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.001;0.1667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0175;0.1825;0.2;1" dur="20s" begin="0s" repeatCount="indefinite"/>
     </text>
     <text x="400" y="42" fill="#ff8a94">
       Full-Stack Developer | System Design | Automation
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.3667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.2175;0.3825;0.4;1" dur="20s" begin="0s" repeatCount="indefinite"/>
     </text>
     <text x="400" y="42" fill="#58a6ff">
       Weaving intelligence into products people use
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4;0.5667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.4;0.4175;0.5825;0.6;1" dur="20s" begin="0s" repeatCount="indefinite"/>
     </text>
     <text x="400" y="42" fill="#ff8a94">
       Building products, not just projects
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.6;0.7667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.6;0.6175;0.7825;0.8;1" dur="20s" begin="0s" repeatCount="indefinite"/>
     </text>
     <text x="400" y="42" fill="#ffffff">
       With great code comes great responsibility
-      <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.8;0.9667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;0.8;0.8175;0.9825;1" dur="20s" begin="0s" repeatCount="indefinite"/>
     </text>
   </g>
 
-  <rect x="750" y="24" width="4" height="26" rx="2" fill="url(#tglow)">
+  <rect x="768" y="24" width="4" height="26" rx="2" fill="url(#tglow)">
     <animate attributeName="opacity" values="1;0;1" dur="1s" begin="0s" repeatCount="indefinite"/>
   </rect>
 </svg>
