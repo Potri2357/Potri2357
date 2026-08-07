@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/spidey-banner.svg" width="100%" alt="Potri2357 — Spider-Developer" />
+<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/spidey-banner.svg" width="100%" alt="Potrinathan P M — Full-Stack Developer" />
 
 <a href="https://github.com/Potri2357">
   <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/typing.svg" width="100%" alt="Rotating intro" />
@@ -18,19 +18,19 @@
 
 ## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/user.svg" width="26" align="center"/> About Me
 
-**Every hero has an origin story.** Mine started with a web browser, a curiosity for how things work, and an unhealthy amount of coffee. Today I swing between the backend, the frontend, and everything in between — weaving intelligence into products people actually use.
+Every origin story begins with a spark of curiosity — mine started in a browser, fueled by an unhealthy amount of coffee and the urge to understand how things work. Today I design and ship end-to-end products, weaving intelligence into software people actually use.
 
-- <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/code.svg" width="18" align="center"/> **Web-Slinger of Code** — Full-stack developer crafting end-to-end products (AI/ML · Backend · Frontend · System Design · Automation)
-- <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/layers.svg" width="18" align="center"/> **Product Builder** — Building intelligent, cloud-native products, not just projects
-- <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/rocket.svg" width="18" align="center"/> **Builder at heart** — From real-time negotiation platforms to AI math video editors, I love turning crazy ideas into shipped software
+- <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/code.svg" width="18" align="center"/> **Full-Stack Developer** — Crafting complete products across AI/ML · Backend · Frontend · System Design · Automation
+- <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/layers.svg" width="18" align="center"/> **Product Builder** — Engineering intelligent, cloud-native products, not just projects
+- <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/rocket.svg" width="18" align="center"/> **Builder at heart** — From real-time negotiation platforms to AI math video editors, I turn ambitious ideas into shipped software
 - <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/refresh-cw.svg" width="18" align="center"/> **Always learning** — New frameworks, new algorithms, new ways to make the web faster and smarter
 - <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/target.svg" width="18" align="center"/> **Motto:** *"Building products, not just projects."*
 
 <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/web-divider.svg" width="100%" alt="divider" />
 
-## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/flask-conical.svg" width="26" align="center"/> The Lab — Tech Arsenal
+## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/flask-conical.svg" width="26" align="center"/> The Arsenal — Tech Stack
 
-Every hero needs the right gadgets. Here's my web-shooter toolkit:
+Every project deserves the right tools. Here's my toolkit:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/tech/python.svg" width="48" height="48" alt="Python"/>
@@ -61,7 +61,7 @@ Every hero needs the right gadgets. Here's my web-shooter toolkit:
   <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/tech/scikitlearn.svg" width="48" height="48" alt="scikit-learn"/>
 </p>
 
-## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/layout-dashboard.svg" width="26" align="center"/> Command Center — Live GitHub Dashboard
+## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/layout-dashboard.svg" width="26" align="center"/> Live Dashboard — GitHub Stats
 
 > Pulled straight from the GitHub API. The streak card is live; the terminal dashboards are **auto-regenerated every day** by a scheduled workflow.
 
@@ -74,12 +74,12 @@ Every hero needs the right gadgets. Here's my web-shooter toolkit:
   <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/github-metrics-languages.svg" alt="Languages Dashboard" width="480" />
 </p>
 
-## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/rocket.svg" width="26" align="center"/> Mission Log — Featured Projects
+## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/rocket.svg" width="26" align="center"/> Featured Projects
 
 | | |
 |:---:|:---:|
 | **<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/book-open.svg" width="18" align="center"/> LearnFlow**<br/>AI-powered personalized learning with intelligent content generation & multi-platform publishing.<br/>`Python` `AI` `Cloud-native`<br/>[![Repo](https://img.shields.io/badge/View%20Repo-e63946?style=flat-square&logo=github&logoColor=white)](https://github.com/Potri2357/LearnFlow) [![Stars](https://img.shields.io/github/stars/Potri2357/LearnFlow?style=social)](https://github.com/Potri2357/LearnFlow/stargazers) | **<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/store.svg" width="18" align="center"/> Multilingual_Mandi**<br/>Real-time multilingual negotiation platform with instant translation, AI price discovery & live chat.<br/>`TypeScript` `Firebase` `WebSockets`<br/>[![Repo](https://img.shields.io/badge/View%20Repo-e63946?style=flat-square&logo=github&logoColor=white)](https://github.com/Potri2357/Multilingual_Mandi) [![Stars](https://img.shields.io/github/stars/Potri2357/Multilingual_Mandi?style=social)](https://github.com/Potri2357/Multilingual_Mandi/stargazers) |
-| **<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/pen-tool.svg" width="18" align="center"/> HandFree**<br/>Real-time webcam air-writing system — MediaPipe hand tracking + Kalman filtering + hybrid CNN.<br/>`Python` `OpenCV` `MediaPipe` `CNN`<br/>[![Repo](https://img.shields.io/badge/View%20Repo-e63946?style=flat-square&logo=github&logoColor=white)](https://github.com/Potri2357/HandFree) [![Stars](https://img.shields.io/github/stars/Potri2357/HandFree?style=social)](https://github.com/Potri2357/HandFree/stargazers) | **<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/clapperboard.svg" width="18" align="center"/> LineX**<br/>Manim-powered AI video editor for math — generate pro animations from prompts & shapes.<br/>`Python` `Manim` `AI`<br/>[![Repo](https://img.shields.io/badge/View%20Repo-e63946?style=flat-square&logo=github&logoColor=white)](https://github.com/Potri2357/LineX) [![Stars](https://img.shields.io/github/stars/Potri2357/LineX?style=social)](https://github.com/Potri2357/LineX/stargazers) |
+| **<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/pen-tool.svg" width="18" align="center"/> HandFree**<br/>Real-time webcam air-writing system — MediaPipe hand tracking + Kalman filtering + hybrid CNN.<br/>`Python` `OpenCV` `MediaPipe` `CNN`<br/>[![Repo](https://img.shields.io/badge/View%20Repo-e63946?style=flat-square&logo=github&logoColor=white)](https://github.com/Potri2357/HandFree) [![Stars](https://img.shields.io/github/stars/Potri2357/HandFree?style=social)](https://github.com/Potri2357/HandFree/stargazers) | **<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/clapperboard.svg" width="18" align="center"/> LineX**<br/>Manim-powered AI video editor for math — generate professional animations from prompts & shapes.<br/>`Python` `Manim` `AI`<br/>[![Repo](https://img.shields.io/badge/View%20Repo-e63946?style=flat-square&logo=github&logoColor=white)](https://github.com/Potri2357/LineX) [![Stars](https://img.shields.io/github/stars/Potri2357/LineX?style=social)](https://github.com/Potri2357/LineX/stargazers) |
 | **<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/calculator.svg" width="18" align="center"/> MathMax2K25**<br/>Adaptive math learning with personalized practice, real-time multiplayer challenges & dashboards.<br/>`JavaScript` `Full-stack`<br/>[![Repo](https://img.shields.io/badge/View%20Repo-e63946?style=flat-square&logo=github&logoColor=white)](https://github.com/Potri2357/MathMax2K25) [![Stars](https://img.shields.io/github/stars/Potri2357/MathMax2K25?style=social)](https://github.com/Potri2357/MathMax2K25/stargazers) | **<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/palette.svg" width="18" align="center"/> portfolio-template**<br/>Premium dark-themed portfolio built with React & Tailwind — elegant animations, gold-accented design system.<br/>`React` `Tailwind` `HTML`<br/>[![Repo](https://img.shields.io/badge/View%20Repo-e63946?style=flat-square&logo=github&logoColor=white)](https://github.com/Potri2357/portfolio-template) [![Stars](https://img.shields.io/github/stars/Potri2357/portfolio-template?style=social)](https://github.com/Potri2357/portfolio-template/stargazers) |
 
 <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/web-divider.svg" width="100%" alt="divider" />
@@ -103,9 +103,9 @@ Last Updated: Friday, August 7th, 2026, 10:08:27 PM
 8. Pushed commits to [incogvia-tech/incogvia-portfolio](https://github.com/incogvia-tech/incogvia-portfolio)<br>
 <!--RECENT_ACTIVITY:end-->
 
-## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/webhook.svg" width="26" align="center"/> The Web-Crawler — Contribution Snake
+## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/webhook.svg" width="26" align="center"/> Contribution Snake
 
-> This snake eats your contributions and grows — regenerated **every day** by a scheduled workflow.
+> This snake eats contributions and grows — regenerated **every day** by a scheduled workflow.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/github-snake.svg" alt="Contribution Snake" width="100%" />
@@ -121,10 +121,10 @@ Last Updated: Friday, August 7th, 2026, 10:08:27 PM
   <a href="https://github.com/Potri2357?tab=repositories"><img src="https://img.shields.io/badge/Open%20Source-e63946?style=for-the-badge&logo=opensourceinitiative&logoColor=white"/></a>
 </p>
 
-<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/spidey-quote.svg" width="100%" alt="With great power comes great responsibility" />
+<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/spidey-quote.svg" width="100%" alt="With great code comes great responsibility" />
 
 <p align="center">
-  <sub>Crafted with great power by <b>Potrinathan P M</b> · This README auto-updates via GitHub Actions & live GitHub APIs</sub>
+  <sub>Crafted with great code by <b>Potrinathan P M</b> · This README auto-updates via GitHub Actions & live GitHub APIs</sub>
 </p>
 
 <p align="center">

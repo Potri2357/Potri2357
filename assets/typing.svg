@@ -8,23 +8,23 @@
   </defs>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="24" font-weight="600" text-anchor="middle">
-    <text x="400" y="42" fill="#e63946">
+    <text x="400" y="42" fill="#ffffff">
       Hello, I'm Potrinathan P M
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.001;0.1667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
     </text>
-    <text x="400" y="42" fill="#e63946">
-      Friendly neighborhood developer
+    <text x="400" y="42" fill="#ff8a94">
+      Full-Stack Developer | System Design | Automation
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.2;0.3667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
     </text>
-    <text x="400" y="42" fill="#e63946">
-      Full-Stack Developer | System Design | Automation
+    <text x="400" y="42" fill="#58a6ff">
+      Weaving intelligence into products people use
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.4;0.5667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
     </text>
-    <text x="400" y="42" fill="#e63946">
+    <text x="400" y="42" fill="#ff8a94">
       Building products, not just projects
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.6;0.7667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
     </text>
-    <text x="400" y="42" fill="#e63946">
+    <text x="400" y="42" fill="#ffffff">
       With great code comes great responsibility
       <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.8;0.9667;1" dur="15s" begin="0s" repeatCount="indefinite"/>
     </text>
