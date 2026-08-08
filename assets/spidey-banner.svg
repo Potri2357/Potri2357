@@ -5,10 +5,12 @@
   @keyframes glow  { 0%,100%{opacity:.32} 50%{opacity:.68} }
   @keyframes webshine { 0%,100%{opacity:.10} 50%{opacity:.26} }
   @keyframes swing { 0%,100%{ transform: rotate(6deg);} 50%{ transform: rotate(-6deg);} }
+  @keyframes twinkle { 0%,100%{opacity:.12} 50%{opacity:.9} }
   .title   { animation: pulse 3.2s ease-in-out infinite; }
   .halo    { animation: glow  4.0s ease-in-out infinite; }
   .web     { animation: webshine 5s ease-in-out infinite; }
   .swing   { transform-origin: 600px 0px; animation: swing 4.5s ease-in-out infinite; }
+  .star    { animation: twinkle ease-in-out infinite; }
 </style>
 <defs>
   <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
@@ -40,6 +42,49 @@
 
 <rect width="1200" height="340" fill="url(#bg)"/>
 <rect width="1200" height="340" fill="url(#vignette)"/>
+
+<g fill="#c7cede">
+  <circle class="star" cx="50"  cy="30"  r="1.2" style="animation-duration:3.1s;animation-delay:0.1s"/>
+  <circle class="star" cx="120" cy="92"  r="0.8" style="animation-duration:2.7s;animation-delay:1.2s"/>
+  <circle class="star" cx="200" cy="42"  r="1.5" style="animation-duration:3.6s;animation-delay:0.6s"/>
+  <circle class="star" cx="280" cy="120" r="1.0" style="animation-duration:2.9s;animation-delay:2.1s"/>
+  <circle class="star" cx="340" cy="55"  r="0.8" style="animation-duration:3.3s;animation-delay:1.6s"/>
+  <circle class="star" cx="420" cy="140" r="1.3" style="animation-duration:2.6s;animation-delay:0.4s"/>
+  <circle class="star" cx="500" cy="35"  r="0.9" style="animation-duration:3.8s;animation-delay:2.5s"/>
+  <circle class="star" cx="560" cy="165" r="1.1" style="animation-duration:2.8s;animation-delay:0.9s"/>
+  <circle class="star" cx="640" cy="60"  r="1.4" style="animation-duration:3.4s;animation-delay:1.9s"/>
+  <circle class="star" cx="700" cy="130" r="0.9" style="animation-duration:2.5s;animation-delay:0.2s"/>
+  <circle class="star" cx="780" cy="45"  r="1.2" style="animation-duration:3.2s;animation-delay:2.8s"/>
+  <circle class="star" cx="860" cy="110" r="0.8" style="animation-duration:2.9s;animation-delay:1.1s"/>
+  <circle class="star" cx="940" cy="50"  r="1.5" style="animation-duration:3.7s;animation-delay:2.3s"/>
+  <circle class="star" cx="1020" cy="140" r="1.0" style="animation-duration:2.7s;animation-delay:0.7s"/>
+  <circle class="star" cx="1100" cy="70"  r="1.2" style="animation-duration:3.5s;animation-delay:1.4s"/>
+  <circle class="star" cx="1150" cy="150" r="0.9" style="animation-duration:2.6s;animation-delay:2.6s"/>
+  <circle class="star" cx="40"   cy="235" r="1.0" style="animation-duration:3.0s;animation-delay:1.7s"/>
+  <circle class="star" cx="130"  cy="300" r="1.3" style="animation-duration:2.8s;animation-delay:0.5s"/>
+  <circle class="star" cx="210"  cy="252" r="0.8" style="animation-duration:3.6s;animation-delay:2.0s"/>
+  <circle class="star" cx="300"  cy="315" r="1.1" style="animation-duration:2.7s;animation-delay:1.3s"/>
+  <circle class="star" cx="380"  cy="262" r="1.4" style="animation-duration:3.3s;animation-delay:0.3s"/>
+  <circle class="star" cx="470"  cy="322" r="0.9" style="animation-duration:2.6s;animation-delay:2.4s"/>
+  <circle class="star" cx="540"  cy="272" r="1.0" style="animation-duration:3.1s;animation-delay:0.8s"/>
+  <circle class="star" cx="640"  cy="330" r="1.2" style="animation-duration:2.9s;animation-delay:2.2s"/>
+  <circle class="star" cx="700"  cy="282" r="0.8" style="animation-duration:3.5s;animation-delay:1.0s"/>
+  <circle class="star" cx="810"  cy="326" r="1.1" style="animation-duration:2.7s;animation-delay:2.9s"/>
+  <circle class="star" cx="900"  cy="272" r="1.3" style="animation-duration:3.2s;animation-delay:0.6s"/>
+  <circle class="star" cx="980"  cy="316" r="0.9" style="animation-duration:2.6s;animation-delay:1.8s"/>
+  <circle class="star" cx="1080" cy="276" r="1.2" style="animation-duration:3.4s;animation-delay:2.7s"/>
+  <circle class="star" cx="1150" cy="240" r="1.0" style="animation-duration:2.8s;animation-delay:0.4s"/>
+  <circle class="star" cx="66"   cy="182" r="0.8" style="animation-duration:3.3s;animation-delay:1.5s"/>
+  <circle class="star" cx="1122" cy="205" r="1.1" style="animation-duration:2.7s;animation-delay:2.0s"/>
+  <circle class="star" cx="940"  cy="50"  r="1.6" style="animation-duration:3.1s;animation-delay:1.1s"/>
+  <circle class="star" cx="380"  cy="262" r="1.5" style="animation-duration:3.5s;animation-delay:2.3s"/>
+</g>
+
+<g fill="#ff8a94">
+  <circle class="star" cx="285" cy="48"  r="1.1" style="animation-duration:3.4s;animation-delay:0.9s"/>
+  <circle class="star" cx="805" cy="150" r="1.0" style="animation-duration:2.8s;animation-delay:1.9s"/>
+  <circle class="star" cx="965" cy="240" r="1.2" style="animation-duration:3.2s;animation-delay:0.7s"/>
+</g>
 
 <g class="web"><g stroke="#ffffff" stroke-width="1.1" fill="none" stroke-linecap="round">
   <line x1="0" y1="0" x2="128" y2="0"/>
