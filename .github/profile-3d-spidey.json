@@ -1,0 +1,17 @@
+{
+  "type": "normal",
+  "fileName": "profile-custom-spidey.svg",
+  "backgroundColor": "#0a1128",
+  "foregroundColor": "#e6edf3",
+  "strongColor": "#c9d1d9",
+  "weakColor": "#8b949e",
+  "radarColor": "#e63946",
+  "growingAnimation": true,
+  "contribColors": [
+    "#161b22",
+    "#3d1220",
+    "#7f1d2d",
+    "#c92e3e",
+    "#ff4d5d"
+  ]
+}
