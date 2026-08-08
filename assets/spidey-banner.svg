@@ -3,9 +3,16 @@
 <style>
   @keyframes twinkle { 0%,100%{opacity:.08} 45%{opacity:1} }
   @keyframes twinkleFaint { 0%,100%{opacity:.04} 45%{opacity:.55} }
+  @keyframes cometFly {
+    0%   { transform: translate(0,0); opacity: 0; }
+    3%   { opacity: 1; }
+    90%  { opacity: 1; }
+    100% { transform: translate(var(--tx), var(--ty)); opacity: 0; }
+  }
   @keyframes pulse { 0%,100%{opacity:.92} 50%{opacity:1} }
   @keyframes glowBreath { 0%,100%{opacity:.85} 50%{opacity:1} }
   .star  { animation: twinkle ease-in-out infinite; }
+  .comet { animation: cometFly linear infinite; }
   .starf { animation: twinkleFaint ease-in-out infinite; }
   .name  { animation: pulse 4.5s ease-in-out infinite; }
   .glow  { animation: glowBreath 6s ease-in-out infinite; }
@@ -983,6 +990,20 @@
 <rect x="0" y="478" width="640" height="14" fill="#141020"/>
 <line x1="0" y1="478" x2="640" y2="478.4" stroke="#c23d33" stroke-width="2" opacity="0.55"/>
 <line x1="0" y1="492" x2="640" y2="494" stroke="#2a1620" stroke-width="1" opacity="0.8"/>
+<g class="comet" style="--tx:-230px; --ty:400px; animation-duration:4.2s; animation-delay:0.4s"><line x1="1595.0" y1="-60.5" x2="1542.5" y2="30.9" stroke="#dce6f8" stroke-width="2.0" stroke-linecap="round" opacity="0.65"/><line x1="1542.5" y1="30.9" x2="1566.5" y2="-10.9" stroke="#dce6f8" stroke-width="1.5" stroke-linecap="round" opacity="0.42"/><line x1="1566.5" y1="-10.9" x2="1583.8" y2="-40.9" stroke="#dce6f8" stroke-width="1.1" stroke-linecap="round" opacity="0.24"/><line x1="1583.8" y1="-40.9" x2="1595.0" y2="-60.5" stroke="#dce6f8" stroke-width="0.8" stroke-linecap="round" opacity="0.12"/><ellipse cx="1520" cy="70" rx="9" ry="9" fill="url(#eyeGlow)" opacity="0.5"/><circle cx="1520" cy="70" r="1.8" fill="#ffffff"/></g>
+<g class="comet" style="--tx:276px; --ty:368px; animation-duration:5.2s; animation-delay:2.4s"><line x1="122.0" y1="46.0" x2="176.6" y2="118.8" stroke="#dce6f8" stroke-width="2.0" stroke-linecap="round" opacity="0.65"/><line x1="176.6" y1="118.8" x2="151.6" y2="85.5" stroke="#dce6f8" stroke-width="1.5" stroke-linecap="round" opacity="0.42"/><line x1="151.6" y1="85.5" x2="133.7" y2="61.6" stroke="#dce6f8" stroke-width="1.1" stroke-linecap="round" opacity="0.24"/><line x1="133.7" y1="61.6" x2="122.0" y2="46.0" stroke="#dce6f8" stroke-width="0.8" stroke-linecap="round" opacity="0.12"/><ellipse cx="200" cy="150" rx="9" ry="9" fill="url(#eyeGlow)" opacity="0.5"/><circle cx="200" cy="150" r="1.8" fill="#ffffff"/></g>
+<g class="comet" style="--tx:-345px; --ty:304px; animation-duration:3.8s; animation-delay:1.3s"><line x1="1007.5" y1="-67.2" x2="918.2" y2="11.3" stroke="#dce6f8" stroke-width="2.0" stroke-linecap="round" opacity="0.65"/><line x1="918.2" y1="11.3" x2="959.0" y2="-24.6" stroke="#dce6f8" stroke-width="1.5" stroke-linecap="round" opacity="0.42"/><line x1="959.0" y1="-24.6" x2="988.4" y2="-50.4" stroke="#dce6f8" stroke-width="1.1" stroke-linecap="round" opacity="0.24"/><line x1="988.4" y1="-50.4" x2="1007.5" y2="-67.2" stroke="#dce6f8" stroke-width="0.8" stroke-linecap="round" opacity="0.12"/><ellipse cx="880" cy="45" rx="9" ry="9" fill="url(#eyeGlow)" opacity="0.5"/><circle cx="880" cy="45" r="1.8" fill="#ffffff"/></g>
+<g class="comet" style="--tx:161px; --ty:432px; animation-duration:5.8s; animation-delay:3.6s"><line x1="1638.0" y1="97.2" x2="1667.4" y2="176.2" stroke="#dce6f8" stroke-width="2.0" stroke-linecap="round" opacity="0.65"/><line x1="1667.4" y1="176.2" x2="1654.0" y2="140.1" stroke="#dce6f8" stroke-width="1.5" stroke-linecap="round" opacity="0.42"/><line x1="1654.0" y1="140.1" x2="1644.3" y2="114.1" stroke="#dce6f8" stroke-width="1.1" stroke-linecap="round" opacity="0.24"/><line x1="1644.3" y1="114.1" x2="1638.0" y2="97.2" stroke="#dce6f8" stroke-width="0.8" stroke-linecap="round" opacity="0.12"/><ellipse cx="1680" cy="210" rx="9" ry="9" fill="url(#eyeGlow)" opacity="0.5"/><circle cx="1680" cy="210" r="1.8" fill="#ffffff"/></g>
+<g class="comet" style="--tx:377px; --ty:262px; animation-duration:4.6s; animation-delay:5.2s"><line x1="445.2" y1="-39.8" x2="525.6" y2="16.1" stroke="#dce6f8" stroke-width="2.0" stroke-linecap="round" opacity="0.65"/><line x1="525.6" y1="16.1" x2="488.8" y2="-9.5" stroke="#dce6f8" stroke-width="1.5" stroke-linecap="round" opacity="0.42"/><line x1="488.8" y1="-9.5" x2="462.4" y2="-27.8" stroke="#dce6f8" stroke-width="1.1" stroke-linecap="round" opacity="0.24"/><line x1="462.4" y1="-27.8" x2="445.2" y2="-39.8" stroke="#dce6f8" stroke-width="0.8" stroke-linecap="round" opacity="0.12"/><ellipse cx="560" cy="40" rx="9" ry="9" fill="url(#eyeGlow)" opacity="0.5"/><circle cx="560" cy="40" r="1.8" fill="#ffffff"/></g>
+<rect width="1783" height="592" fill="url(#vig)"/>
+<ellipse cx="1120" cy="310" rx="440" ry="160" fill="url(#scrim)"/>
+<text x="1120" y="246" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="80" font-weight="700" letter-spacing="7" fill="#e8454f" text-anchor="middle" filter="url(#textShadow)" class="name">POTRINATHAN P.M</text>
+<rect x="760" y="270" width="720" height="2" rx="1" fill="url(#accent)"/>
+<text x="1120" y="322" font-family="Segoe UI, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="27" font-weight="600" letter-spacing="5" fill="#ff5a66" text-anchor="middle">FULL-STACK DEVELOPER • AI / ML • SYSTEM DESIGN</text>
+<text x="1120" y="364" font-family="Segoe UI, &quot;Helvetica Neue&quot;, Arial, sans-serif" font-size="17" font-weight="500" letter-spacing="3" fill="#a9b4cd" text-anchor="middle">BUILDING PRODUCTS • NOT JUST PROJECTS</text>
+<line x1="740" y1="126" x2="1042" y2="126" stroke="#8fa4d8" stroke-width="1" opacity="0.4"/>
+<text x="891" y="140" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22" font-style="italic" letter-spacing="2" fill="#c3cddf" opacity="0.95" text-anchor="middle">Every city began as a single light.</text>
+<text x="891" y="174" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="22" font-style="italic" letter-spacing="2" fill="#c3cddf" opacity="0.95" text-anchor="middle">Every build began as a single line.</text>
 <rect width="1783" height="592" fill="url(#vig)"/>
 <ellipse cx="1120" cy="310" rx="440" ry="160" fill="url(#scrim)"/>
 <text x="1120" y="246" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="80" font-weight="700" letter-spacing="7" fill="#e8454f" text-anchor="middle" filter="url(#textShadow)" class="name">POTRINATHAN P.M</text>
@@ -992,7 +1013,4 @@
 <text x="310" y="232" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="24" font-style="italic" letter-spacing="2" fill="#c3cddf" opacity="0.92" text-anchor="middle">Every city began as a single light.</text>
 <text x="310" y="266" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="24" font-style="italic" letter-spacing="2" fill="#c3cddf" opacity="0.92" text-anchor="middle">Every build began as a single line.</text>
 <line x1="180" y1="196" x2="440" y2="196" stroke="#8fa4d8" stroke-width="1" opacity="0.35"/>
-<ellipse cx="1690" cy="120" rx="40" ry="40" fill="url(#eyeGlow)" opacity="0.35"/>
-<path d="M 1690 100 L 1697 113 L 1710 120 L 1697 127 L 1690 140 L 1683 127 L 1670 120 L 1683 113 Z" fill="#dfe5f2" opacity="0.9" class="star"/>
-<circle cx="1690" cy="120" r="3" fill="#ffffff"/>
 </svg>
