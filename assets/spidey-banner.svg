@@ -3,19 +3,52 @@
 <style>
   @keyframes twinkle { 0%,100%{opacity:.08} 45%{opacity:1} }
   @keyframes twinkleFaint { 0%,100%{opacity:.04} 45%{opacity:.55} }
-  @keyframes cometFly {
-    0%   { transform: translate(0,0); opacity: 0; }
-    3%   { opacity: 1; }
-    90%  { opacity: 1; }
-    100% { transform: translate(var(--tx), var(--ty)); opacity: 0; }
+  @keyframes meteor1 {
+    0%, 48% { transform: translateX(0); opacity: 0; }
+    52%     { opacity: 1; }
+    66%     { transform: translateX(520px); opacity: 0.95; }
+    74%     { transform: translateX(820px); opacity: 0; }
+    100%    { transform: translateX(820px); opacity: 0; }
+  }
+  @keyframes meteor2 {
+    0%, 50% { transform: translateX(0); opacity: 0; }
+    54%     { opacity: 1; }
+    68%     { transform: translateX(380px); opacity: 0.9; }
+    76%     { transform: translateX(600px); opacity: 0; }
+    100%    { transform: translateX(600px); opacity: 0; }
+  }
+  @keyframes meteor3 {
+    0%, 46% { transform: translateX(0); opacity: 0; }
+    50%     { opacity: 1; }
+    64%     { transform: translateX(500px); opacity: 0.95; }
+    72%     { transform: translateX(780px); opacity: 0; }
+    100%    { transform: translateX(780px); opacity: 0; }
+  }
+  @keyframes meteor4 {
+    0%, 47% { transform: translateX(0); opacity: 0; }
+    51%     { opacity: 1; }
+    65%     { transform: translateX(460px); opacity: 0.9; }
+    73%     { transform: translateX(720px); opacity: 0; }
+    100%    { transform: translateX(720px); opacity: 0; }
+  }
+  @keyframes meteor5 {
+    0%, 52% { transform: translateX(0); opacity: 0; }
+    56%     { opacity: 0.8; }
+    68%     { transform: translateX(320px); opacity: 0.65; }
+    76%     { transform: translateX(500px); opacity: 0; }
+    100%    { transform: translateX(500px); opacity: 0; }
   }
   @keyframes pulse { 0%,100%{opacity:.92} 50%{opacity:1} }
   @keyframes glowBreath { 0%,100%{opacity:.85} 50%{opacity:1} }
   .star  { animation: twinkle ease-in-out infinite; }
-  .comet { animation: cometFly linear infinite; }
   .starf { animation: twinkleFaint ease-in-out infinite; }
   .name  { animation: pulse 4.5s ease-in-out infinite; }
   .glow  { animation: glowBreath 6s ease-in-out infinite; }
+  .meteor-anim-1 { animation: meteor1 11.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite; animation-delay: 0.5s; }
+  .meteor-anim-2 { animation: meteor2 9.8s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite; animation-delay: 4.2s; }
+  .meteor-anim-3 { animation: meteor3 14.2s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite; animation-delay: 7.8s; }
+  .meteor-anim-4 { animation: meteor4 16.0s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite; animation-delay: 11.2s; }
+  .meteor-anim-5 { animation: meteor5 12.0s cubic-bezier(0.25, 0.46, 0.45, 0.94) infinite; animation-delay: 2.2s; }
 </style>
 <defs>
   <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
@@ -79,6 +112,52 @@
   <radialGradient id="eyeGlow" cx="0.5" cy="0.5" r="0.5">
     <stop offset="0" stop-color="#ffffff" stop-opacity="0.9"/>
     <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <!-- Meteor Trails & Ionization Glow Gradients -->
+  <linearGradient id="meteorGradCool" x1="1" y1="0" x2="0" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+    <stop offset="12%" stop-color="#e0f2fe" stop-opacity="0.95"/>
+    <stop offset="35%" stop-color="#93c5fd" stop-opacity="0.6"/>
+    <stop offset="65%" stop-color="#3b82f6" stop-opacity="0.2"/>
+    <stop offset="90%" stop-color="#1d4ed8" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="meteorHaloCool" x1="1" y1="0" x2="0" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+    <stop offset="20%" stop-color="#bae6fd" stop-opacity="0.5"/>
+    <stop offset="55%" stop-color="#60a5fa" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#1e3a8a" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="meteorAuraCool" x1="1" y1="0" x2="0" y2="0">
+    <stop offset="0%" stop-color="#dbeafe" stop-opacity="0.45"/>
+    <stop offset="35%" stop-color="#93c5fd" stop-opacity="0.12"/>
+    <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="meteorGradWarm" x1="1" y1="0" x2="0" y2="0">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+    <stop offset="14%" stop-color="#ffe4e6" stop-opacity="0.95"/>
+    <stop offset="38%" stop-color="#fda4af" stop-opacity="0.6"/>
+    <stop offset="68%" stop-color="#f43f5e" stop-opacity="0.22"/>
+    <stop offset="90%" stop-color="#be123c" stop-opacity="0.04"/>
+    <stop offset="100%" stop-color="#4c0519" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="meteorHaloWarm" x1="1" y1="0" x2="0" y2="0">
+    <stop offset="0%" stop-color="#fff1f2" stop-opacity="0.85"/>
+    <stop offset="25%" stop-color="#fecdd3" stop-opacity="0.45"/>
+    <stop offset="60%" stop-color="#fb7185" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#9f1239" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient id="meteorHeadFlare" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+    <stop offset="25%" stop-color="#e0f2fe" stop-opacity="0.95"/>
+    <stop offset="55%" stop-color="#60a5fa" stop-opacity="0.45"/>
+    <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="meteorHeadFlareWarm" cx="0.5" cy="0.5" r="0.5">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+    <stop offset="25%" stop-color="#ffe4e6" stop-opacity="0.95"/>
+    <stop offset="55%" stop-color="#f43f5e" stop-opacity="0.45"/>
+    <stop offset="100%" stop-color="#9f1239" stop-opacity="0"/>
   </radialGradient>
   <filter id="textShadow" x="-20%" y="-40%" width="140%" height="220%">
     <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
@@ -989,11 +1068,63 @@
 <line x1="616" y1="575" x2="616.4" y2="588" stroke="#241116" stroke-width="1" opacity="0.7"/>
 <rect x="0" y="478" width="640" height="14" fill="#141020"/>
 <line x1="0" y1="478" x2="640" y2="478.4" stroke="#c23d33" stroke-width="2" opacity="0.55"/>
-<line x1="0" y1="492" x2="640" y2="494" stroke="#2a1620" stroke-width="1" opacity="0.8"/>
-<g class="comet" style="--tx:-230px; --ty:400px; animation-duration:4.2s; animation-delay:0.4s"><path d="M 1520.0 70.0 C 1560.4 23.8 1595.7 -53.2 1620.0 -104.0 C 1588.3 -57.4 1539.6 11.8 1520.0 70.0 Z" fill="#dce6f8" opacity="0.25"/><path d="M 1520.0 70.0 C 1555.9 21.2 1594.1 -54.1 1620.0 -104.0 C 1589.9 -56.5 1544.1 14.4 1520.0 70.0 Z" fill="#eef3fd" opacity="0.5"/><ellipse cx="1520" cy="70" rx="10" ry="10" fill="url(#eyeGlow)" opacity="0.55"/><circle cx="1520" cy="70" r="2.1" fill="#ffffff"/></g>
-<g class="comet" style="--tx:276px; --ty:368px; animation-duration:5.2s; animation-delay:2.4s"><path d="M 200.0 150.0 C 176.2 100.3 125.3 44.1 92.0 6.0 C 119.2 48.6 159.0 113.3 200.0 150.0 Z" fill="#dce6f8" opacity="0.25"/><path d="M 200.0 150.0 C 172.5 103.1 124.0 45.0 92.0 6.0 C 120.5 47.6 162.7 110.5 200.0 150.0 Z" fill="#eef3fd" opacity="0.5"/><ellipse cx="200" cy="150" rx="10" ry="10" fill="url(#eyeGlow)" opacity="0.55"/><circle cx="200" cy="150" r="2.1" fill="#ffffff"/></g>
-<g class="comet" style="--tx:-345px; --ty:304px; animation-duration:3.8s; animation-delay:1.3s"><path d="M 880.0 45.0 C 938.2 11.3 1001.8 -56.1 1045.0 -100.2 C 995.8 -63.0 920.8 -8.5 880.0 45.0 Z" fill="#dce6f8" opacity="0.25"/><path d="M 880.0 45.0 C 934.4 7.0 1000.5 -57.6 1045.0 -100.2 C 997.1 -61.5 924.6 -4.2 880.0 45.0 Z" fill="#eef3fd" opacity="0.5"/><ellipse cx="880" cy="45" rx="10" ry="10" fill="url(#eyeGlow)" opacity="0.55"/><circle cx="880" cy="45" r="2.1" fill="#ffffff"/></g>
-<g class="comet" style="--tx:161px; --ty:432px; animation-duration:5.8s; animation-delay:3.6s"><path d="M 1680.0 210.0 C 1671.7 158.5 1640.5 93.7 1620.5 50.2 C 1633.8 96.2 1652.6 165.6 1680.0 210.0 Z" fill="#dce6f8" opacity="0.25"/><path d="M 1680.0 210.0 C 1667.6 160.0 1639.1 94.2 1620.5 50.2 C 1635.3 95.7 1656.7 164.1 1680.0 210.0 Z" fill="#eef3fd" opacity="0.5"/><ellipse cx="1680" cy="210" rx="10" ry="10" fill="url(#eyeGlow)" opacity="0.55"/><circle cx="1680" cy="210" r="2.1" fill="#ffffff"/></g>
+  <!-- Realistic Natural Shooting Stars -->
+  <g id="shooting-stars">
+    <!-- Meteor 1: Primary Perseid (Upper Right Sky) -->
+    <g transform="translate(1620, 40) rotate(150)">
+      <g class="meteor-anim-1">
+        <polygon points="0,-8 0,8 -240,0" fill="url(#meteorAuraCool)"/>
+        <polygon points="0,-4.2 0,4.2 -320,0" fill="url(#meteorHaloCool)"/>
+        <polygon points="0,-1.6 0,1.6 -380,0" fill="url(#meteorGradCool)"/>
+        <ellipse cx="0" cy="0" rx="10" ry="5.5" fill="url(#meteorHeadFlare)"/>
+        <ellipse cx="0" cy="0" rx="3.2" ry="1.6" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <!-- Meteor 2: Swift Micro-Meteor (Upper Left Sky) -->
+    <g transform="translate(540, 25) rotate(146)">
+      <g class="meteor-anim-2">
+        <polygon points="0,-5.5 0,5.5 -160,0" fill="url(#meteorAuraCool)"/>
+        <polygon points="0,-2.8 0,2.8 -220,0" fill="url(#meteorHaloCool)"/>
+        <polygon points="0,-1.1 0,1.1 -270,0" fill="url(#meteorGradCool)"/>
+        <ellipse cx="0" cy="0" rx="7" ry="4" fill="url(#meteorHeadFlare)"/>
+        <ellipse cx="0" cy="0" rx="2.2" ry="1.2" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <!-- Meteor 3: Cosmic Blue Fireball (Mid Sky) -->
+    <g transform="translate(1180, 50) rotate(152)">
+      <g class="meteor-anim-3">
+        <polygon points="0,-7 0,7 -220,0" fill="url(#meteorAuraCool)"/>
+        <polygon points="0,-3.8 0,3.8 -300,0" fill="url(#meteorHaloCool)"/>
+        <polygon points="0,-1.4 0,1.4 -360,0" fill="url(#meteorGradCool)"/>
+        <ellipse cx="0" cy="0" rx="9" ry="5" fill="url(#meteorHeadFlare)"/>
+        <ellipse cx="0" cy="0" rx="2.8" ry="1.4" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <!-- Meteor 4: Spider-Verse Crimson Ember Bolide -->
+    <g transform="translate(860, 20) rotate(153)">
+      <g class="meteor-anim-4">
+        <polygon points="0,-6.5 0,6.5 -200,0" fill="url(#meteorHaloWarm)" opacity="0.35"/>
+        <polygon points="0,-3.4 0,3.4 -280,0" fill="url(#meteorHaloWarm)"/>
+        <polygon points="0,-1.3 0,1.3 -340,0" fill="url(#meteorGradWarm)"/>
+        <ellipse cx="0" cy="0" rx="8.5" ry="4.8" fill="url(#meteorHeadFlareWarm)"/>
+        <ellipse cx="0" cy="0" rx="2.5" ry="1.3" fill="#ffffff"/>
+      </g>
+    </g>
+
+    <!-- Meteor 5: Distant Grazing Meteor (Far Right Sky) -->
+    <g transform="translate(1760, 95) rotate(148)">
+      <g class="meteor-anim-5">
+        <polygon points="0,-4.5 0,4.5 -140,0" fill="url(#meteorAuraCool)" opacity="0.6"/>
+        <polygon points="0,-2.2 0,2.2 -180,0" fill="url(#meteorHaloCool)"/>
+        <polygon points="0,-0.9 0,0.9 -230,0" fill="url(#meteorGradCool)"/>
+        <ellipse cx="0" cy="0" rx="5.5" ry="3" fill="url(#meteorHeadFlare)"/>
+        <circle cx="0" cy="0" r="1.6" fill="#ffffff"/>
+      </g>
+    </g>
+  </g>
 <rect width="1783" height="592" fill="url(#vig)"/>
 <ellipse cx="1120" cy="310" rx="440" ry="160" fill="url(#scrim)"/>
 <text x="1120" y="246" font-family="Georgia, &quot;Times New Roman&quot;, serif" font-size="80" font-weight="700" letter-spacing="7" fill="#e8454f" text-anchor="middle" filter="url(#textShadow)" class="name">POTRINATHAN P.M</text>
