@@ -63,10 +63,10 @@ Every project deserves the right tools. Here's my toolkit:
 
 ## <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/icons/layout-dashboard.svg" width="26" style="vertical-align: middle"/> Live Dashboard — GitHub Stats
 
-> Real data from the GitHub API. The streak card is live; the 3D contribution calendar is **auto-regenerated every day** by a scheduled workflow.
+> Real data from the GitHub API. The streak card and 3D contribution calendar are **auto-regenerated every day** by scheduled workflows.
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Potri2357&hide_border=true&background=0d1117&border=30363d&stroke=e63946&ring=58a6ff&fire=e63946&currStreakNum=e63946&currStreakLabel=ffffff&sideLabels=8b949e&sideNums=c9d1d9&dates=8b949e" alt="GitHub Streak" />
+  <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/streak-stats.svg" alt="GitHub Streak" />
 </p>
 
 <p align="center">

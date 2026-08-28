@@ -1,0 +1,49 @@
+name: GitHub Readme Streak Stats
+
+on:
+  schedule:
+    - cron: "10 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/streak-stats.yml"
+
+concurrency:
+  group: streak-stats
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: generate-streak-stats
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Generate Streak Stats
+        uses: DenverCoder1/github-readme-streak-stats@main
+        with:
+          options: user=Potri2357&hide_border=true&background=0d1117&border=30363d&stroke=e63946&ring=58a6ff&fire=e63946&currStreakNum=e63946&currStreakLabel=ffffff&sideLabels=8b949e&sideNums=c9d1d9&dates=8b949e
+          path: assets/streak-stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit Streak Stats
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/streak-stats.svg
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore(streak): refresh streak stats"
+          for i in 1 2 3 4 5; do
+            git pull --rebase origin main || { sleep 5; continue; }
+            git push && exit 0
+            sleep 5
+          done
+          exit 1
