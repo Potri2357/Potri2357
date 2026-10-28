@@ -15,7 +15,7 @@
       <animate attributeName="opacity" values="0;1;1;0;0" keyTimes="0;0.0175;0.1825;0.2;1" dur="20s" begin="0s" repeatCount="indefinite"/>
     </text>
     <text x="400" y="42" fill="#ff8a94">
-      Full-Stack Developer | AI / ML | Cloud-Native
+      Full-Stack Developer | AI / ML | Automation
       <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.2;0.2175;0.3825;0.4;1" dur="20s" begin="0s" repeatCount="indefinite"/>
     </text>
     <text x="400" y="42" fill="#58a6ff">
@@ -32,7 +32,8 @@
     </text>
   </g>
 
-  <rect x="768" y="24" width="4" height="26" rx="2" fill="url(#tglow)">
+  <rect y="24" width="4" height="26" rx="2" fill="url(#tglow)">
+    <animate attributeName="x" values="598;598;718;718;733;733;668;668;718;718;598" keyTimes="0;0.199;0.2;0.399;0.4;0.599;0.6;0.799;0.8;0.999;1" dur="20s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="1;0;1" dur="1s" begin="0s" repeatCount="indefinite"/>
   </rect>
 </svg>

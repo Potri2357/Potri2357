@@ -1,9 +1,9 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/spidey-banner.svg" width="100%" alt="Potrinathan P M — Full-Stack Developer" />
+<img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/spidey-banner.svg?v=2" width="100%" alt="Potrinathan P M — Full-Stack Developer" />
 
 <a href="https://github.com/Potri2357">
-  <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/typing.svg" width="100%" alt="Rotating intro" />
+  <img src="https://raw.githubusercontent.com/Potri2357/Potri2357/main/assets/typing.svg?v=2" width="100%" alt="Rotating intro" />
 </a>
 
 <br/>
